@@ -1,0 +1,19 @@
+{
+  "name": "aws-s3-upload-md5-object-lock",
+  "version": "1.0.0",
+  "description": "a short snippet how to upload a file to S3 with object lock using the AWS SKD in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "upload": "ts-node aws-s3-upload-md5-object-lock.ts"
+  },
+  "author": "Stefan Miertschink",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.348.0",
+    "@aws-sdk/lib-storage": "^3.348.0"
+  }
+}
